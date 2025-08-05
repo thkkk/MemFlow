@@ -1,5 +1,5 @@
-from inference.memory_manager_skflow import MemoryManager
-from core.Networks.MemFlowNet.corr import CorrBlock
+from MemFlow.inference.memory_manager_skflow import MemoryManager
+from MemFlow.core.Networks.MemFlowNet.corr import CorrBlock
 import torch
 
 

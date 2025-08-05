@@ -1,6 +1,6 @@
 import torch
-from inference.kv_memory_store import KeyValueMemoryStore
-from core.Networks.MemFlowNet.memory_util import *
+from MemFlow.inference.kv_memory_store import KeyValueMemoryStore
+from MemFlow.core.Networks.MemFlowNet.memory_util import *
 try:
     from flash_attn import flash_attn_qkvpacked_func, flash_attn_func
     FLASH_AVAIABLE = True
